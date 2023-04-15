@@ -1,0 +1,27 @@
+@mixin flexBox($fd: row, $jc: flex-start, $ai: flex-start) {
+  display: flex;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+@mixin defaultIcon($url, $size: cover) {
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-size: $size;
+  background-position: center;
+}
+
+@mixin hiddenBreakLine($clamp: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $clamp;
+  -webkit-box-orient: vertical;
+}
+
+@mixin positionCenter() {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

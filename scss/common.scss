@@ -1,0 +1,254 @@
+html,
+body,
+header,
+footer,
+main,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+nav,
+ul,
+ol,
+table,
+tr,
+td,
+li,
+article,
+section,
+p,
+button,
+input,
+textarea,
+select,
+span,
+pre {
+  font-family: 'SpoqaHanSansNeo', -apple-system, BlinkMacSystemFont,
+    'Noto Sans KR', '나눔 고딕', 'Nanum Gothic', 'Malgun Gothic', '맑은 고딕' !important;
+  color: #000000;
+  font-weight: $regular;
+  letter-spacing: -1px;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #b9b9b9;
+}
+input::-moz-placeholder {
+  color: #b9b9b9;
+}
+input::-webkit-input-placeholder {
+  color: #b9b9b9;
+}
+textarea::placeholder {
+  color: #b9b9b9;
+}
+textarea::-moz-placeholder {
+  color: #b9b9b9;
+}
+textarea::-webkit-input-placeholder {
+  color: #b9b9b9;
+}
+
+select {
+  -webkit-appearance: none; /* 네이티브 외형 감추기 */
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.lazy {
+  background: none !important;
+}
+
+.wrapper {
+  width: $web-wrapper-size;
+  margin: 0 auto;
+}
+
+.m__wrapper {
+  width: $mobile-wrapper-size;
+  padding: 0px 24px;
+  margin: 0 auto;
+}
+
+.h58 {
+  width: 100%;
+  height: 58px;
+}
+
+/*
+<div class="form-common--input>
+    <i />
+    <input type="text" />
+    <i />
+</div>
+*/
+// form common input
+.form-common--input {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $border-gray;
+  i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  input,
+  select {
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    padding: 0px 24px;
+    box-sizing: border-box;
+    &.def {
+      cursor: default;
+    }
+  }
+  input::placeholder {
+    color: #b9b9b9;
+  }
+  select {
+    cursor: pointer;
+    &.gray {
+      color: #b9b9b9;
+    }
+  }
+  .plus {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://dcse8twossp9.cloudfront.net/static/img/user/mypage/lessons/add-circle-black-24-dp.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .icon {
+    background-image: url(https://dcse8twossp9.cloudfront.net/static/img/common/header/menu-24-px.svg);
+  }
+  .arrow {
+    background-image: url(https://dcse8twossp9.cloudfront.net/static/img/coach_note/navigate-next-24-px.svg);
+  }
+  &.border--none {
+    border-bottom: none;
+  }
+  &.mb24 {
+    margin-bottom: 24px;
+  }
+}
+
+/*
+<div class="form-common--check">
+    <input type="checkbox" />
+    <label class="check__box">
+        <i/>
+        <span>text</span>
+    </label>
+</div>
+*/
+// form common checkbox
+.form-common--check {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  input {
+    display: none;
+
+    & + label {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      cursor: pointer;
+
+      i {
+        display: inline-block;
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        background-image: url(https://dcse8twossp9.cloudfront.net/static/img/coach_note/check-box-outline-blank-24-px.svg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      span {
+        font-size: 16px;
+        color: black;
+        margin-left: 8px;
+      }
+    }
+
+    &:checked + label > i {
+      background-image: url(https://dcse8twossp9.cloudfront.net/static/img/coach_note/check-box-24-px.svg);
+    }
+  }
+  label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    input[type='checkbox'] {
+      display: none;
+    }
+    input[type='checkbox'] {
+      & + i {
+        display: inline-block;
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        background-image: url(https://dcse8twossp9.cloudfront.net/static/img/coach_note/check-box-outline-blank-24-px.svg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    input[type='checkbox']:checked {
+      & + i {
+        background-image: url(https://dcse8twossp9.cloudfront.net/static/img/coach_note/check-box-24-px.svg);
+      }
+    }
+    span {
+      font-size: 16px;
+      color: black;
+      margin-left: 8px;
+    }
+  }
+}
+
+// new generation
+.background-container {
+  background-color: #f8f8f8;
+}
+.default-container {
+  width: 100%;
+  max-width: $new-width;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .wrapper,
+  .m__wrapper {
+    width: 100%;
+  }
+}

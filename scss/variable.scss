@@ -1,0 +1,123 @@
+// image src path
+// https://dcse8twossp9.cloudfront.net/static/
+
+//size
+$web-wrapper-size: 1068px;
+$mobile-wrapper-size: 448px;
+$mobile-common-padding: 0px 24px;
+
+//color
+$none: rgba(0, 0, 0, 0);
+
+$border-gray: #ebebeb;
+
+$input-background-gray: #eeeeef;
+$input-placeholder-gray: #b9b9c3;
+$input-border-gray: #e1e1eb;
+
+$bar-background-light: #e1e1eb;
+$bar-background-dark: rgb(55, 55, 65);
+
+$btn-purple: #6400c8;
+$btn-gray: #e1e1eb;
+$btn-blue: #1973e6;
+
+$note-basic: #00dcb4;
+$note-pro: #6400c8;
+$note-exp: #e1e1eb;
+
+$note-inst: #ff6400;
+$note-fail: #ff0032;
+$note-success: #b9b9c3;
+
+$workout-color: #6400c8;
+$meditation-color: #ff7d00;
+$art-color: #28c8c8;
+$music-color: #ffc800;
+
+//font
+$thin: 100;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+//main
+$main-wrap-width: 1024px;
+$main-wrap-padding: 0px 24px;
+$main-wrap-margin: 360px auto;
+
+$main-wrap-width-mo: 100%;
+$main-wrap-padding-mo: 0px 16px;
+$main-wrap-margin-mo: 180px auto;
+
+// new genaration
+$new-width: 648px;
+$new-container-margin: 48px 0;
+$new-padding: 0 24px;
+
+//calendar
+$calendar-before: #b9af96;
+$calendar1: #ff7d00;
+$calendar2: #ffbe00;
+$calendar3: #b4dc00;
+$calendar4: #37af55;
+$calendar5: #3296b4;
+
+$face-gold: url(https://dcse8twossp9.cloudfront.net/static/img/icon/face-gold.svg);
+$face-orange: url(https://dcse8twossp9.cloudfront.net/static/img/icon/face-orange.svg);
+$face-yellow: url(https://dcse8twossp9.cloudfront.net/static/img/icon/face-yellow.svg);
+$face-yeondoo: url(https://dcse8twossp9.cloudfront.net/static/img/icon/face-yeondoo.svg);
+$face-green: url(https://dcse8twossp9.cloudfront.net/static/img/icon/face-green.svg);
+$face-blue: url(https://dcse8twossp9.cloudfront.net/static/img/icon/face-blue.svg);
+$face-secret: url(https://dcse8twossp9.cloudfront.net/static/img/icon/face-secret.svg);
+
+$left-gray: url(https://dcse8twossp9.cloudfront.net/static/img/icon/left-gray.svg);
+$left-gold: url(https://dcse8twossp9.cloudfront.net/static/img/icon/left-gold.svg);
+$left-orange: url(https://dcse8twossp9.cloudfront.net/static/img/icon/left-orange.svg);
+$left-yellow: url(https://dcse8twossp9.cloudfront.net/static/img/icon/left-yellow.svg);
+$left-yeondoo: url(https://dcse8twossp9.cloudfront.net/static/img/icon/left-yeondoo.svg);
+$left-green: url(https://dcse8twossp9.cloudfront.net/static/img/icon/left-green.svg);
+$left-blue: url(https://dcse8twossp9.cloudfront.net/static/img/icon/left-blue.svg);
+$left-white: url(https://dcse8twossp9.cloudfront.net/static/img/icon/left-white.svg);
+
+$right-gray: url(https://dcse8twossp9.cloudfront.net/static/img/icon/right-gray.svg);
+$right-gold: url(https://dcse8twossp9.cloudfront.net/static/img/icon/right-gold.svg);
+$right-orange: url(https://dcse8twossp9.cloudfront.net/static/img/icon/right-orange.svg);
+$right-yellow: url(https://dcse8twossp9.cloudfront.net/static/img/icon/right-yellow.svg);
+$right-yeondoo: url(https://dcse8twossp9.cloudfront.net/static/img/icon/right-yeondoo.svg);
+$right-green: url(https://dcse8twossp9.cloudfront.net/static/img/icon/right-green.svg);
+$right-blue: url(https://dcse8twossp9.cloudfront.net/static/img/icon/right-blue.svg);
+
+$close-gold: url(https://dcse8twossp9.cloudfront.net/static/img/icon/close-gold.svg);
+$close-orange: url(https://dcse8twossp9.cloudfront.net/static/img/icon/close-orange.svg);
+$close-yellow: url(https://dcse8twossp9.cloudfront.net/static/img/icon/close-yellow.svg);
+$close-yeondoo: url(https://dcse8twossp9.cloudfront.net/static/img/icon/close-yeondoo.svg);
+$close-green: url(https://dcse8twossp9.cloudfront.net/static/img/icon/close-green.svg);
+$close-blue: url(https://dcse8twossp9.cloudfront.net/static/img/icon/close-blue.svg);
+$close-white: url(https://dcse8twossp9.cloudfront.net/static/img/icon/close-white.svg);
+
+$edit-orange: url(https://dcse8twossp9.cloudfront.net/static/img/icon/edit-orange.svg);
+$edit-yellow: url(https://dcse8twossp9.cloudfront.net/static/img/icon/edit-yellow.svg);
+$edit-yeondoo: url(https://dcse8twossp9.cloudfront.net/static/img/icon/edit-yeondoo.svg);
+$edit-green: url(https://dcse8twossp9.cloudfront.net/static/img/icon/edit-green.svg);
+$edit-blue: url(https://dcse8twossp9.cloudfront.net/static/img/icon/edit-blue.svg);
+$edit-white: url(https://dcse8twossp9.cloudfront.net/static/img/icon/edit-white.svg);
+
+$delete-orange: url(https://dcse8twossp9.cloudfront.net/static/img/icon/delete-orange.svg);
+$delete-yellow: url(https://dcse8twossp9.cloudfront.net/static/img/icon/delete-yellow.svg);
+$delete-yeondoo: url(https://dcse8twossp9.cloudfront.net/static/img/icon/delete-yeondoo.svg);
+$delete-green: url(https://dcse8twossp9.cloudfront.net/static/img/icon/delete-green.svg);
+$delete-blue: url(https://dcse8twossp9.cloudfront.net/static/img/icon/delete-blue.svg);
+$delete-white: url(https://dcse8twossp9.cloudfront.net/static/img/icon/delete-white.svg);
+
+/* style guide color */
+$office-violet: #6400f0;
+$office-mint: #03dcc8;
+$blk-0: #000;
+$blk-65: #414141;
+$blk-125: #7d7d7d;
+$blk-185: #b9b9b9;
+$blk-225: #e1e1e1;
+$blk-245: #f5f5f5;
+$text-link: #1973e6;
